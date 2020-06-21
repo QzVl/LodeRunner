@@ -2,6 +2,7 @@ package com.argame.www.model;
 
 import java.util.List;
 
+import com.argame.www.map.LevelMap;
 import com.argame.www.objects.Enemy;
 import com.argame.www.objects.Player;
 import com.argame.www.objects.StaticGameObject;
@@ -12,7 +13,7 @@ import com.argame.www.objects.StaticGameObject;
 public class Model {
     private Player player;
     private List<Enemy> enemies;
-    //TODO private Map map;
+    private LevelMap map;
     private List<StaticGameObject> blocks;
     private float modelWidth;
     private float modelHeight;
