@@ -5,13 +5,13 @@ package com.argame.www.objects;
  */
 public enum BlockType {
     /**
-     * Invulnerable - cannot be destroyed.
+     * Undestoyrable - cannot be destroyed.
      */
-    INVULNERABLE,
+    UNDESTROYABLE,
     /**
-     * Simple - can be destroyed.
+     * Destroyable - can be destroyed.
      */
-    SIMPLE,
+    DESTROYABLE,
     /**
      * Empty - empty space.
      */
@@ -27,5 +27,5 @@ public enum BlockType {
     /**
      * Stair for move vertically.
      */
-    STAIR
+    STAIRS
 }
