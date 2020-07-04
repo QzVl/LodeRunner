@@ -4,7 +4,7 @@ package com.argame.www.objects;
  * Class for create static game object. (Blocks {@link BlockType})
  */
 public class StaticGameObject extends GameObject {
-    private BlockType blockType;
+
 
     /**
      * Create Static gameObject.
@@ -13,7 +13,6 @@ public class StaticGameObject extends GameObject {
      * @param blockType blockType type of StaticGameObject.
      */
     public StaticGameObject(float x, float y, BlockType blockType) {
-        super(x, y);
-        this.blockType = blockType;
+        super(x, y, blockType);
     }
 }

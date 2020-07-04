@@ -5,6 +5,14 @@ package com.argame.www.objects;
  */
 public enum BlockType {
     /**
+     * Player - LodeRunner player.
+     */
+    PLAYER,
+    /**
+     * Enemy - enemy.
+     */
+    ENEMY,
+    /**
      * Undestoyrable - cannot be destroyed.
      */
     UNDESTROYABLE,

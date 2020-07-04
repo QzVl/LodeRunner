@@ -8,6 +8,7 @@ public class GameObject {
     private float y;
     private float width;
     private float height;
+    private BlockType blockType;
 
     /**
      * Create {@link GameObject}.
@@ -22,19 +23,31 @@ public class GameObject {
         this.height = 0;
     }
 
-    public float getX() {
+    /**
+     * Create {@link GameObject}.
+     * @param x x- coordinate.
+     * @param y y - coordinate.
+     * @param blockType BlockType.
+     */
+    public GameObject(float x, float y, BlockType blockType) {
+        this.x = x;
+        this.y = y;
+        this.blockType = blockType;
+    }
+
+    protected float getX() {
         return x;
     }
 
-    public float getY() {
+    protected float getY() {
         return y;
     }
 
-    public float getWidth() {
+    protected float getWidth() {
         return width;
     }
 
-    public float getHeight() {
+    protected float getHeight() {
         return height;
     }
 
