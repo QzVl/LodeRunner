@@ -5,27 +5,36 @@ package com.argame.www.objects;
  */
 public enum BlockType {
     /**
-     * Invulnerable - cannot be destroyed.
+     * Player - LodeRunner player.
      */
-    INVULNERABLE,
+    p,
     /**
-     * Simple - can be destroyed.
+     * Bot - bot.
      */
-    SIMPLE,
+    b,
+    /**
+     * Undestoyrable - cannot be destroyed.
+     */
+    u,
+    /**
+     * Destroyable - can be destroyed.
+     */
+    d,
     /**
      * Empty - empty space.
      */
-    EMPTY,
+    e,
     /**
      * Gold for passing the level.
      */
-    GOLD,
+    g,
     /**
      * Finish for move to the next level.
      */
-    FINISH,
+    f,
     /**
      * Stair for move vertically.
      */
-    STAIR
+    s
+
 }
