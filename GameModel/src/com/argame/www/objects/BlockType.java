@@ -7,33 +7,34 @@ public enum BlockType {
     /**
      * Player - LodeRunner player.
      */
-    PLAYER,
+    p,
     /**
-     * Enemy - enemy.
+     * Bot - bot.
      */
-    ENEMY,
+    b,
     /**
      * Undestoyrable - cannot be destroyed.
      */
-    UNDESTROYABLE,
+    u,
     /**
      * Destroyable - can be destroyed.
      */
-    DESTROYABLE,
+    d,
     /**
      * Empty - empty space.
      */
-    EMPTY,
+    e,
     /**
      * Gold for passing the level.
      */
-    GOLD,
+    g,
     /**
      * Finish for move to the next level.
      */
-    FINISH,
+    f,
     /**
      * Stair for move vertically.
      */
-    STAIRS
+    s
+
 }

@@ -10,9 +10,8 @@ public class StaticGameObject extends GameObject {
      * Create Static gameObject.
      * @param x x coordinate.
      * @param y y coordinate.
-     * @param blockType blockType type of StaticGameObject.
      */
-    public StaticGameObject(float x, float y, BlockType blockType) {
-        super(x, y, blockType);
+    public StaticGameObject(float x, float y) {
+        super(x, y);
     }
 }
